@@ -1,0 +1,7 @@
+{
+  "name": "GasAbility",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
