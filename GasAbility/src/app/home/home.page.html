@@ -1,13 +1,15 @@
 <app-head></app-head>
 <ion-content>
-
-  <ion-grid>
+  <div class="map-container">
+    <app-map class="map"></app-map>
+  </div>
+  <ion-grid class="content-grid">
     <ion-row>
       <ion-col>
         <div class="search-container">
           <app-search></app-search>
         </div>
-        <app-map></app-map>
+
       </ion-col>
     </ion-row>
   </ion-grid>
